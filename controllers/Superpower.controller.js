@@ -1,4 +1,4 @@
-const {Superpower} = require('../models');
+const {Superpower} = require('../models/Superpower');
 
 module.exports.createSuperpower = async (req,res,next) => {
     try {

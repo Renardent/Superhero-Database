@@ -36,6 +36,10 @@ module.exports = {
           onDelete: 'cascade',
           onUpdate: 'cascade'
         },
+        imagePath: {
+          field: 'image_path',
+          type: Sequelize.TEXT
+        }
       });
     },
 

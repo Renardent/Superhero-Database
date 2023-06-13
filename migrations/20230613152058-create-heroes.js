@@ -20,10 +20,10 @@ module.exports = {
         type: Sequelize.STRING
       },
       origin_description: {
-        type: Sequelize.TEXT
+        type: Sequelize.STRING
       },
       phrase: {
-        type: Sequelize.TEXT
+        type: Sequelize.STRING
       }
     });
   },
